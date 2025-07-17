@@ -18,8 +18,8 @@ class DatabaseSeeder extends Seeder
 
         // Then, create the admin user and assign the admin role
         User::factory()->create([
-            'name' => 'youssef lbssala',
-            'email' => 'admin@example.com',
+            'name' => 'musiala',
+            'email' => 'admin@admin.com',
             'password' => 'password',
         ])->assignRole('admin');
     }
